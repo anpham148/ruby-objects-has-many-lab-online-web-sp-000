@@ -5,6 +5,6 @@ class Song
     @name = name
   end
 
-  def add_song
+
 
 end
