@@ -26,5 +26,6 @@ class Artist
     total = 0
     @@all.each{|a| a.songs? total += 1 }
     total
+    binding.pry
   end
 end
