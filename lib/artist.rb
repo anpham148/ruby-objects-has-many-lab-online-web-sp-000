@@ -25,6 +25,5 @@ class Artist
     total = 0
     @@all.each{|a| total += a.songs.count }
     total
-
   end
 end
