@@ -7,7 +7,7 @@ class Author
   end
 
   def posts
-    Post.all
+    Post.all.filter{|author| author.name == self}
   end
 
   def add_post(post)
