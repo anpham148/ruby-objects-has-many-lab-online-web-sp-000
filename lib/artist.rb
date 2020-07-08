@@ -8,7 +8,7 @@ class Artist
   end
 
   def songs
-    Song.all
+    Song.all.filter{|s| s.artist == self}
   end
 
   def add_song(song)
